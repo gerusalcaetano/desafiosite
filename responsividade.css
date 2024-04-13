@@ -1,0 +1,26 @@
+
+/* Efeito responsivo para tablets */
+@media (max-width: 768px) and (max-width: 1023px) {
+  img 
+    max-width: 80%;
+    h1 { font-size: 24px; };
+  }
+/* Responsividade mobile */
+@media (max-width: 767px) {
+  img {
+    max-width: 50%;
+    h1 { font-size: 18px; };
+    .viagens { width: 100%; }
+  }
+}
+/* Efeito responsivo para desktop */
+@media (max-width: 1024) {
+  h1 { font-size: 32px; };
+  img 
+    max-width: 50%;
+    .viagens { width: 70%;
+      display: none;
+    nav-down: auto; }
+        
+    }
+  

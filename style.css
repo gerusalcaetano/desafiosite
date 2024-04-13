@@ -1,0 +1,136 @@
+    
+/* Cabeçalho interativo- efeito ao passar o mouse */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cabecalho{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 10rem;
+  background-color: #F25E7A;
+}
+header {
+    background-color: #A60A33;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size:1.1rem;
+       }
+    nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+    transition: 0.2s;
+  }
+  
+  nav a:hover {
+    color: #5ef2eb;
+    background-color:#A60A33 ;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+
+/* Estilo geral*/
+h1{ 
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-size:3rem;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+h2{
+    color: rgb(135, 233, 236);
+    font-size: 1.4rem;
+     text-align: center;
+}
+h3{
+  color: rgb(135, 233, 236);
+  font-size: 1.6rem;
+}
+ p {
+    text-align: justify;
+    line-height: 1.6; /* Espaçamento entre linhas para conforto */
+    font-family: "Montserrat",sans-serif;
+         
+  }
+  a:hover {
+    color: rgb(218, 206, 218);
+  }
+ body {
+    
+  font-family: "Montserrat",sans-serif;
+  font-size: 18px;
+  background-color:rgb(15, 117, 128);
+  color: whitesmoke;
+}
+
+/* Seções principais */
+
+.viagens {
+  padding: 5%;
+  margin: 5%;
+  display: flex;
+  margin: 20px ;
+  background-color: rgb(10, 86, 92);
+  text-align: justify;
+  
+}
+
+/* Imagens */
+
+.aviaocabecalho{
+  width: 200px ;
+  height: 200px ;
+  border-radius: 15px;
+  padding: 1%;
+  border-color: #A60A33;
+     
+}
+.aviaogif{
+  width: 850px ;
+  height: 461px ;
+  border-radius: 15px;
+  position: relative ;
+  
+      }
+img {
+  width: 500px ;
+  height: 410px ;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+   
+      }
+    form {
+      margin: 0 auto;
+      width: fit-content; }
+    
+/* Rodapé */
+footer {
+  background-color:#A60A33;
+  color: #fff;
+  justify-content: center;
+  padding: 8px 0;
+  font-family: Arial, sans-serif;
+}
+.rodape{
+    text-align: center;
+}
+/* Media queries para ajustar layout em telas menores */
+@media (max-width: 768px) {
+  .viagens {
+    text-align: justify;
+    img{ width: 300px;
+      height: 300px;}
+      }
+
+  .img {
+    margin-bottom: 10px; /* Ajustar o espaçamento entre as imagens em telas menores */
+  }
+}
+
